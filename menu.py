@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 from PIL import ImageTk, Image
 import os
-import detection
+
 
 #this is just laying out the basics window of the GUI
 root = Tk()
