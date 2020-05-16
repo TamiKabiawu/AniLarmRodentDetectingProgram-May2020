@@ -1,6 +1,8 @@
 from tkinter import *
 from tkinter import messagebox
 from PIL import ImageTk, Image
+import os
+import detection
 
 #this is just laying out the basics window of the GUI
 root = Tk()
@@ -24,11 +26,11 @@ background_label.pack(side=TOP)
 
 
 #this is a function that calls the detection algorithm in the detection.py file
-def hello():
-    messagebox.showinfo("Say Hello", "Hello World")
+def detectionAlg():
+    os.system('python detection.py')
 
 #This is what lays out the button
-B1 = Button(padx=5,pady=5, text = "START WATCHING", font=('helvetica 15 bold'), bg= 'white', fg='black', relief=GROOVE, command=hello)
+B1 = Button(padx=5,pady=5, text = "START WATCHING", font=('helvetica 15 bold'), bg= 'white', fg='black', relief=GROOVE, command=detectionAlg)
 B1.place(x=165, y=104)
 
 
