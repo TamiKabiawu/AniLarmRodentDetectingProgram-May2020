@@ -7,13 +7,13 @@ import os
 #this is just laying out the basics window of the GUI
 root = Tk()
 root.geometry("500x570")
-root.title("Animal Watcher")
+root.title("AniLarm")
 
 #This is used to Style the top of the Window
 frame = Frame(root, relief=RIDGE, borderwidth=2)
 frame.pack(fill=BOTH,expand=1)
 frame.config(background='light blue')
-label = Label(frame,text="Animal Watcher", bg='light blue', font=('Times 35 bold'))
+label = Label(frame,text="AniLarm", bg='light blue', font=('Times 35 bold'))
 label.pack(side=TOP)
 
 #creates a Tkinter iamge that can be used everywhere Tkinter expects an image object
