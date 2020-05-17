@@ -1,5 +1,7 @@
 import cv2
 import numpy as np
+import serial 
+ser = serial.Serial('COM3', baudrate = 9600, timeout=1)
 
 face_cascade = cv2.CascadeClassifier('haarcascades\haarcascade_frontalcatface_extended.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascades\haarcascade_eye.xml')
@@ -18,6 +20,7 @@ while True:
             cv2.rectangle(roi_color, (ex, ey), (ex+ew,ey+eh), (0,255,0),2)
             if (eyes.any()):
                 print("detected")
+                ser.write(b'1')
     cv2.imshow('img', img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
