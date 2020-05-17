@@ -13,3 +13,9 @@ For the detection algorithm
 
 Must install serial: python -m pip install pyserial
 For the arduino to code communication
+
+IMPORTANT:
+- To run the program without error you need a serial connection for your arduino on COM3 with a 9600 baud rate
+Upload the SerialCommunication.ino file to your arduino and set up a simple buzzer schematic.
+- To run the program GUI run it from the menu.py file
+
