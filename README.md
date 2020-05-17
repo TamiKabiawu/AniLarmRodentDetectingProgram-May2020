@@ -10,3 +10,6 @@ For the Detection algorithm
 Must install Numpy: pip install numpy
 For the detection algorithm 
 (Make sure numpy is up to date by pip install -U numpy)
+
+Must install serial: python -m pip install pyserial
+For the arduino to code communication
