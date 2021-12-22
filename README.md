@@ -1,5 +1,5 @@
 # hthsHacks
-hthsHacks Repository
+This is a submission for the hthsHacks Hackathon
 
 Must install python imaging libary: pip install Pillow
 For the imaging that is on the Menu
