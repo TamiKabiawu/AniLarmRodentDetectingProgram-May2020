@@ -19,3 +19,4 @@ IMPORTANT:
 Upload the SerialCommunication.ino file to your arduino and set up a simple buzzer schematic.
 - To run the program GUI run it from the menu.py file
 
+To watch a video of our Hackathon submission: https://www.youtube.com/watch?v=IkiON7yh6C4
